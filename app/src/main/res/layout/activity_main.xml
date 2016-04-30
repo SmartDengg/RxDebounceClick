@@ -29,8 +29,8 @@
     android:layout_marginRight="@dimen/material_4dp"
     android:layout_marginTop="@dimen/material_24dp"
     android:background="@drawable/boundary_background"
-    android:clipToPadding="false"
     android:overScrollMode="never"
-    android:padding="@dimen/material_8dp" />
+    android:padding="@dimen/material_8dp"
+    />
 
 </RelativeLayout>
