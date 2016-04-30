@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.smartdengg.example.MainActivity">
+
+  <Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/material_24dp"
+    android:background="@drawable/button_background_selector"
+    android:padding="@dimen/material_8dp"
+    android:text="Trigger"
+    android:textColor="?attr/colorPrimaryDark"
+    android:textSize="@dimen/material_16sp" />
+
+  <android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@id/button"
+    android:layout_marginBottom="@dimen/material_4dp"
+    android:layout_marginLeft="@dimen/material_4dp"
+    android:layout_marginRight="@dimen/material_4dp"
+    android:layout_marginTop="@dimen/material_24dp"
+    android:background="@drawable/boundary_background"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="@dimen/material_8dp" />
+
+</RelativeLayout>
