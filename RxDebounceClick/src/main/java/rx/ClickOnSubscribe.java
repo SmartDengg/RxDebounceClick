@@ -1,6 +1,5 @@
 package rx;
 
-import android.os.Looper;
 import android.view.View;
 
 /**
@@ -17,9 +16,7 @@ public class ClickOnSubscribe implements Observable.OnSubscribe<Void> {
     @Override
     public void call(final Subscriber<? super Void> subscriber) {
 
-        if (Looper.getMainLooper() != Looper.myLooper()) {
-            throw new IllegalStateException("Must be called from the main thread. Was: " + Thread.currentThread());
-        }
+        Utils.checkMainThread();
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
