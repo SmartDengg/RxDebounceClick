@@ -1,1 +1,1 @@
-include ':app', ':rxdebounceclick'
+include ':app', ':RxDebounceClick'
