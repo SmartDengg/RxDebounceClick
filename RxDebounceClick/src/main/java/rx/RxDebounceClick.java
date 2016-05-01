@@ -1,7 +1,5 @@
 package rx;
 
-import android.support.annotation.CheckResult;
-import android.support.annotation.NonNull;
 import android.view.View;
 
 /**
@@ -13,9 +11,10 @@ public class RxDebounceClick {
         throw new IllegalStateException("No instances!");
     }
 
-    @CheckResult
-    @NonNull
-    public static Observable<Void> onClick(@NonNull View view) {
+    public static Observable<Void> onClick(View view) {
+
+        Utils.checkNotNull(view, "view == null");
+
         return Observable.create(new ClickOnSubscribe(view));
     }
 }
