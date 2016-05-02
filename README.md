@@ -49,6 +49,7 @@ RxDebounceClick.onClick(button)
 Preview
 --------
 
+![](./images/rxdebounceclick.gif)
 
 
 Developed By
