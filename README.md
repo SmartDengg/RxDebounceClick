@@ -1,4 +1,4 @@
-#[RxDebounceClick](https://github.com/SmartDengg/RxDebounceClick)
+#RxDebounceClick
 [![](https://jitpack.io/v/SmartDengg/RxDebounceClick.svg)](https://jitpack.io/#SmartDengg/RxDebounceClick)
 
 ![](./images/launcher.png)
