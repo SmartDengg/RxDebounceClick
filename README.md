@@ -5,7 +5,8 @@
 
 Sketch
 --------
-It's similar to the Butterknife's [DebouncingOnClickListener](https://github.com/JakeWharton/butterknife/blob/master/butterknife/src/main/java/butterknife/internal/DebouncingOnClickListener.java). That also means "A click listener that debounces multiple clicks posted in the same frame. A click on one button disables all buttons for that frame."  
+> A click listener that debounces multiple clicks posted in the same frame. A click on one button 
+disables all buttons for that frame.
 
 This library use [RxJava](https://github.com/ReactiveX/RxJava) but not support [Backpressure](https://github.com/ReactiveX/RxJava/wiki/Backpressure).
 
