@@ -7,7 +7,7 @@ Sketch
 --------
 
 It also seems like a click listener, hold multiple clicks posted in the same frame to prevent 
-debounce. When a click event on one clickable widget, "disable" it immediately, then enable 
+debounce. After a click event on one clickable widget, "disable" it immediately, then enable 
 again by itself's internal frame.
 
 This library use [RxJava](https://github.com/ReactiveX/RxJava) but not support [Backpressure](https://github.com/ReactiveX/RxJava/wiki/Backpressure).
