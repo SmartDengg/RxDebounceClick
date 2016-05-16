@@ -33,7 +33,7 @@ allprojects {
 
 ```java
 dependencies {
-    compile 'com.github.SmartDengg:RxDebounceClick:0.0.1' 
+    compile 'com.github.SmartDengg:RxDebounceClick:1.0.0' 
 }
 ```
 
