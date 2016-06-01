@@ -39,14 +39,6 @@ public class MainActivity extends AppCompatActivity {
     private void bindClick() {
 
         RxDebounceClick.onClick(button)
-                       .subscribe(new Action1<Void>() {
-                           @Override
-                           public void call(Void aVoid) {
-                               // Do stuff
-                           }
-                       });
-
-        RxDebounceClick.onClick(button)
                        .observeOn(AndroidSchedulers.mainThread())
                        .doOnNext(new Action1<Void>() {
                            @Override
