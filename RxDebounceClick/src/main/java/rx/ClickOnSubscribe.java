@@ -3,7 +3,7 @@ package rx;
 import android.view.View;
 
 /**
- * Created by Joker on 2016/4/21.sssssssssssssssss
+ * Created by Joker on 2016/4/21.
  */
 public class ClickOnSubscribe implements Observable.OnSubscribe<Void> {
 
