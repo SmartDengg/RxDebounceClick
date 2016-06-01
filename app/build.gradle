@@ -30,5 +30,6 @@ dependencies {
   compile "com.jakewharton:butterknife:$BUTTERKNIFE_LIBRARAY_VERSION"
   compile "io.reactivex:rxandroid:$RXANDROID_LIBRARAY_VERSION"
 
-  compile project(':RxDebounceClick')
+//  compile project(':RxDebounceClick')
+  compile 'com.github.SmartDengg:RxDebounceClick:0.0.2'
 }
