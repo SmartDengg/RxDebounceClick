@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
                            }
                        })
                        .subscribe(this.infoAdapter);
+
+        //https://jitpack.io/com/github/SmartDengg/RxDebounceClick/1.0.0/javadoc/
     }
 
     private void setupAdapter() {
