@@ -5,7 +5,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/SmartDengg/RxDebounceClick.svg?style=social&label=Star&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/network)
 [![GitHub issues](https://img.shields.io/github/issues/SmartDengg/RxDebounceClick.svg?style=social&label=Issue&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/issues)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=squared)](LICENSE.txt)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.txt)
 
 ![](./images/launcher.png)
 
