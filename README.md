@@ -1,7 +1,7 @@
 #RxDebounceClick
 [![](https://jitpack.io/v/SmartDengg/RxDebounceClick.svg)](https://jitpack.io/#SmartDengg/RxDebounceClick)
 [![GitHub stars](https://img.shields.io/github/stars/SmartDengg/RxDebounceClick.svg?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/SmartDengg/RxDebounceClick.svg?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/network)
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/network)
 [![GitHub issues](https://img.shields.io/github/issues/SmartDengg/RxDebounceClick.svg?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](LICENSE.txt)
 
