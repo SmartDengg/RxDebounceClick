@@ -1,9 +1,13 @@
 #RxDebounceClick
 [![](https://jitpack.io/v/SmartDengg/RxDebounceClick.svg)](https://jitpack.io/#SmartDengg/RxDebounceClick)
 
-[![GitHub stars](https://img.shields.io/github/stars/SmartDengg/RxDebounceClick.svg?style=social&label=Fork&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/SmartDengg/RxDebounceClick.svg?style=social&label=Star&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/network)
+[![GitHub stars](https://img.shields.io/github/stars/SmartDengg/RxDebounceClick.svg?style=social&label=Star&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/SmartDengg/RxDebounceClick.svg?style=social&label=Fork&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/network)
 [![GitHub issues](https://img.shields.io/github/issues/SmartDengg/RxDebounceClick.svg?style=social&label=Issue&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/issues)
+[![Method count](https://img.shields.io/badge/style-flat--squared-green.svg?style=flat-square)](https://github.com/SmartDengg/RxDebounceClick/issues)
+
+[![Method count](https://img.shields.io/badge/method count  - 30-ff69b4.svg?style=flat-square)]()
+[![Size](https://img.shields.io/badge/size- 30 KB-ff69b4.svg?style=flat-square)]()
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.txt)
 
