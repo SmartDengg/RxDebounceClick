@@ -1,4 +1,4 @@
-package com.rx.debounce;
+package com.smartdengg.debounce;
 
 import android.view.View;
 import rx.Observable;
@@ -14,6 +14,7 @@ public class RxDebounceClick {
 
     public static Observable<Void> onClick(View view) {
 
-        return Observable.create(new ClickOnSubscribe(Utils.checkNotNull(view, "view == null")));
+        return Observable.create(new ClickOnSubscribe(Utils.checkNotNull(view, "view == null")))
+                         .lift(OperatorDebounce.<Void>getInstance(view));
     }
 }

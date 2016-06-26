@@ -1,4 +1,4 @@
-package com.rx.debounce;
+package com.smartdengg.debounce;
 
 import android.os.Looper;
 

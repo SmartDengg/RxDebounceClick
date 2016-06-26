@@ -1,4 +1,4 @@
-package com.rx.debounce;
+package com.smartdengg.debounce;
 
 import android.os.Looper;
 import android.view.View;
@@ -9,13 +9,12 @@ import rx.Subscription;
 
 /**
  * Created by SmartDengg on 2016/4/21.
- * *
  * A click listener that debounces multiple clicks posted in the same frame. A click on one button disables all buttons for that frame.
  */
-public class DebounceClickProducer<T> extends AtomicBoolean implements Subscription, Producer {
+class DebounceClickProducer<T> extends AtomicBoolean implements Subscription, Producer {
 
     private View view;
-    private Subscriber<T> subscriber;
+    private Subscriber<? super T> subscriber;
     private final AtomicBoolean unsubscribed = new AtomicBoolean();
 
     private final Runnable clickable = new Runnable() {
@@ -25,7 +24,7 @@ public class DebounceClickProducer<T> extends AtomicBoolean implements Subscript
         }
     };
 
-    public DebounceClickProducer(View view, Subscriber<T> subscriber) {
+    public DebounceClickProducer(View view, Subscriber<? super T> subscriber) {
         this.view = view;
         this.subscriber = subscriber;
     }
@@ -36,16 +35,15 @@ public class DebounceClickProducer<T> extends AtomicBoolean implements Subscript
         if (n == 0) return; // Nothing to do when requesting 0.
         if (!DebounceClickProducer.this.getAndSet(true)) return;//Click was already triggered.
 
-        if (!subscriber.isUnsubscribed()) {
+        this.emit();
+    }
 
+    private void emit() {
+        if (!subscriber.isUnsubscribed()) {
             this.set(false);
             subscriber.onNext(null);
             view.post(clickable);
         }
-    }
-
-    public void requestMore() {
-        DebounceClickProducer.this.request(1);
     }
 
     @Override

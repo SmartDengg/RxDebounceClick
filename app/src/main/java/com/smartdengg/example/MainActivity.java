@@ -9,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.Button;
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import com.rx.debounce.RxDebounceClick;
+import com.smartdengg.debounce.RxDebounceClick;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 import rx.functions.Func1;
