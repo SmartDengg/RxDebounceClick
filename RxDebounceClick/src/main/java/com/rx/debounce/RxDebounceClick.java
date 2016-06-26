@@ -1,6 +1,7 @@
-package rx;
+package com.rx.debounce;
 
 import android.view.View;
+import rx.Observable;
 
 /**
  * Created by Joker on 2016/4/21.
@@ -13,8 +14,6 @@ public class RxDebounceClick {
 
     public static Observable<Void> onClick(View view) {
 
-        Utils.checkNotNull(view, "view == null");
-
-        return Observable.create(new ClickOnSubscribe(view));
+        return Observable.create(new ClickOnSubscribe(Utils.checkNotNull(view, "view == null")));
     }
 }

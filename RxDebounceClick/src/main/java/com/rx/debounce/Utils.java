@@ -1,4 +1,4 @@
-package rx;
+package com.rx.debounce;
 
 import android.os.Looper;
 

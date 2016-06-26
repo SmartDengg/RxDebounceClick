@@ -9,10 +9,11 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.Button;
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import rx.RxDebounceClick;
+import com.rx.debounce.RxDebounceClick;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 import rx.functions.Func1;
+import rx.internal.util.RxRingBuffer;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private void bindClick() {
 
         RxDebounceClick.onClick(button)
-                       .observeOn(AndroidSchedulers.mainThread())
+                       .observeOn(AndroidSchedulers.mainThread(), RxRingBuffer.SIZE)
                        .doOnNext(new Action1<Void>() {
                            @Override
                            public void call(Void aVoid) {

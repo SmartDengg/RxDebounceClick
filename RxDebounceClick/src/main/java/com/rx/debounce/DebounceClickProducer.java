@@ -1,8 +1,11 @@
-package rx;
+package com.rx.debounce;
 
 import android.os.Looper;
 import android.view.View;
 import java.util.concurrent.atomic.AtomicBoolean;
+import rx.Producer;
+import rx.Subscriber;
+import rx.Subscription;
 
 /**
  * Created by SmartDengg on 2016/4/21.
@@ -39,6 +42,10 @@ public class DebounceClickProducer<T> extends AtomicBoolean implements Subscript
             subscriber.onNext(null);
             view.post(clickable);
         }
+    }
+
+    public void requestMore() {
+        DebounceClickProducer.this.request(1);
     }
 
     @Override
