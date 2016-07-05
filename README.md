@@ -9,7 +9,6 @@
 
 [![GitHub license](https://img.shields.io/badge/License  - MIT-blue.svg?style=flat-square)](LICENSE.txt)
 
-
 ![](./images/launcher.png)
 
 Sketch
