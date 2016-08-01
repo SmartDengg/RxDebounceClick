@@ -1,3 +1,6 @@
+| README.md |
+|:---|
+
 #RxDebounceClick
 [![](https://jitpack.io/v/SmartDengg/RxDebounceClick.svg)](https://jitpack.io/#SmartDengg/RxDebounceClick)
 [![Method count](https://img.shields.io/badge/Method count  - 46-ff69b4.svg?style=flat)](http://www.methodscount.com/?lib=com.github.SmartDengg%3ARxDebounceClick%3A1.1.1)
