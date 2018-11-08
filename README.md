@@ -1,16 +1,11 @@
 | README.md |
 |:---|
 
-#RxDebounceClick
-[![](https://jitpack.io/v/SmartDengg/RxDebounceClick.svg)](https://jitpack.io/#SmartDengg/RxDebounceClick)
-[![Method count](https://img.shields.io/badge/Method count  - 46-ff69b4.svg?style=flat)](http://www.methodscount.com/?lib=com.github.SmartDengg%3ARxDebounceClick%3A1.1.1)
-[![Size](https://img.shields.io/badge/Size  - 7 KB-ff69b4.svg?style=flat)](http://www.methodscount.com/?lib=com.github.SmartDengg%3ARxDebounceClick%3A1.1.1)
+# RxDebounceClick
 
 [![GitHub stars](https://img.shields.io/github/stars/SmartDengg/RxDebounceClick.svg?style=social&label=Star&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/SmartDengg/RxDebounceClick.svg?style=social&label=Fork&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/network)
 [![GitHub issues](https://img.shields.io/github/issues/SmartDengg/RxDebounceClick.svg?style=social&label=Issue&maxAge=2592000?style=plastic)](https://github.com/SmartDengg/RxDebounceClick/issues)
-
-[![GitHub license](https://img.shields.io/badge/License  - MIT-blue.svg?style=flat-square)](LICENSE.txt)
 
 ![](./images/launcher.png)
 
